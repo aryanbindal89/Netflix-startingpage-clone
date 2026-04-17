@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Live-stream"
+        discription="Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <section id="banner">
+        <nav>
+            <div class="logo">
+                <svg viewBox="0 0 111 30" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                    class="default-ltr-iqcdef-cache-17hp4kx e38gzvf2">
+                    <g>
+                        <path
+                            d="M105.06233,14.2806261 L110.999156,30 C109.249227,29.7497422 107.500234,29.4366857 105.718437,29.1554972 L102.374168,20.4686475 L98.9371075,28.4375293 C97.2499766,28.1563408 95.5928391,28.061674 93.9057081,27.8432843 L99.9372012,14.0931671 L94.4680851,-5.68434189e-14 L99.5313525,-5.68434189e-14 L102.593495,7.87421502 L105.874965,-5.68434189e-14 L110.999156,-5.68434189e-14 L105.06233,14.2806261 Z M90.4686475,-5.68434189e-14 L85.8749649,-5.68434189e-14 L85.8749649,27.2499766 C87.3746368,27.3437061 88.9371075,27.4055675 90.4686475,27.5930265 L90.4686475,-5.68434189e-14 Z M81.9055207,26.93692 C77.7186241,26.6557316 73.5307901,26.4064111 69.250164,26.3117443 L69.250164,-5.68434189e-14 L73.9366389,-5.68434189e-14 L73.9366389,21.8745899 C76.6248008,21.9373887 79.3120255,22.1557784 81.9055207,22.2804387 L81.9055207,26.93692 Z M64.2496954,10.6561065 L64.2496954,15.3435186 L57.8442216,15.3435186 L57.8442216,25.9996251 L53.2186709,25.9996251 L53.2186709,-5.68434189e-14 L66.3436123,-5.68434189e-14 L66.3436123,4.68741213 L57.8442216,4.68741213 L57.8442216,10.6561065 L64.2496954,10.6561065 Z M45.3435186,4.68741213 L45.3435186,26.2498828 C43.7810479,26.2498828 42.1876465,26.2498828 40.6561065,26.3117443 L40.6561065,4.68741213 L35.8121661,4.68741213 L35.8121661,-5.68434189e-14 L50.2183897,-5.68434189e-14 L50.2183897,4.68741213 L45.3435186,4.68741213 Z M30.749836,15.5928391 C28.687787,15.5928391 26.2498828,15.5928391 24.4999531,15.6875059 L24.4999531,22.6562939 C27.2499766,22.4678976 30,22.2495079 32.7809542,22.1557784 L32.7809542,26.6557316 L19.812541,27.6876933 L19.812541,-5.68434189e-14 L32.7809542,-5.68434189e-14 L32.7809542,4.68741213 L24.4999531,4.68741213 L24.4999531,10.9991564 C26.3126816,10.9991564 29.0936358,10.9054269 30.749836,10.9054269 L30.749836,15.5928391 Z M4.78114163,12.9684132 L4.78114163,29.3429562 C3.09401069,29.5313525 1.59340144,29.7497422 0,30 L0,-5.68434189e-14 L4.4690224,-5.68434189e-14 L10.562377,17.0315868 L10.562377,-5.68434189e-14 L15.2497891,-5.68434189e-14 L15.2497891,28.061674 C13.5935889,28.3437998 11.906458,28.4375293 10.1246602,28.6868498 L4.78114163,12.9684132 Z">
+                        </path>
+                    </g>
+                </svg>
+            </div>
+            <div class="option">
+                <div id="drop-down-menu">
+                    <select id=":R2l6lalalalb96:" name="LanguageSelect" data-uia="language-picker-header"
+                        data-wct-form-control-element="true">
+                        <option lang="en" label="English" value="en-IN" selected="">English</option>
+                        <option lang="hi" label="हिन्दी" value="hi-IN">हिन्दी</option>
+                    </select>
+                </div>
+                <div id="signin">
+                    <button>
+                        Sign In
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <div class="text">
+            <h1 ><b>Unlimited movies,<br> shows, and more</b></h1>
+            <h3>Starts at ₹149. Cancel at any time.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <input type="email" name="email" id="email-input" placeholder="Email address"><span><button>Get Started</button></span>
+        </div>
+        <div class="box"></div>
+    </section>
+
+<section class="trending">
+
+    <h2>Trending Now</h2>
+
+    <div class="slider-wrapper">
+
+        <!-- Left Button -->
+        <button class="nav-btn left" onclick="moveSlide(-1)">&#10094;</button>
+
+        <!-- Images -->
+        <div class="movie-slider" id="slider">
+            <div class="movie-card"><span>1</span><img src="img (1).webp"></div>
+            <div class="movie-card"><span>2</span><img src="img (2).webp"></div>
+            <div class="movie-card"><span>3</span><img src="img (3).webp"></div>
+            <div class="movie-card"><span>4</span><img src="img (4).webp"></div>
+            <div class="movie-card"><span>5</span><img src="img (5).webp"></div>
+            <div class="movie-card"><span>6</span><img src="img (6).webp"></div>
+            <div class="movie-card"><span>7</span><img src="img (7).webp"></div>
+            <div class="movie-card"><span>8</span><img src="img (8).webp"></div>
+            <div class="movie-card"><span>9</span><img src="img (9).webp"></div>
+            <div class="movie-card"><span>10</span><img src="img (10).webp"></div>
+
+        </div>
+
+        <!-- Right Button -->
+        <button class="nav-btn right" onclick="moveSlide(1)">&#10095;</button>
+
+    </div>
+
+</section>
+
+<section class="join-section">
+
+    <h2>More reasons to join</h2>
+
+    <div class="join-cards">
+
+        <div class="card">
+            <h3>Enjoy on your TV</h3>
+            <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+            <div class="icon">📺</div>
+        </div>
+
+        <div class="card">
+            <h3>Download your shows to watch offline</h3>
+            <p>Save your favourites easily and always have something to watch.</p>
+            <div class="icon">⬇️</div>
+        </div>
+
+        <div class="card">
+            <h3>Watch everywhere</h3>
+            <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            <div class="icon">🎬</div>
+        </div>
+
+        <div class="card">
+            <h3>Create profiles for kids</h3>
+            <p>Send kids on adventures with their favourite characters in a space made just for them — free with your membership.</p>
+            <div class="icon">😊</div>
+        </div>
+
+<section class="faq">
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-box">
+        <button class="faq-question">
+            What is Netflix?
+            <span>+</span>
+        </button>
+        <div class="faq-answer">
+            Netflix is a streaming service offering movies, TV shows and more.
+        </div>
+    </div>
+
+    <div class="faq-box">
+        <button class="faq-question">
+            How much does Netflix cost?
+            <span>+</span>
+        </button>
+        <div class="faq-answer">
+            Plans start at affordable monthly prices with no extra fees.
+        </div>
+    </div>
+
+    <div class="faq-box">
+        <button class="faq-question">
+            Where can I watch?
+            <span>+</span>
+        </button>
+        <div class="faq-answer">
+            Watch on smart TVs, phones, tablets, laptops and more.
+        </div>
+    </div>
+
+    <div class="faq-box">
+        <button class="faq-question">
+            How do I cancel?
+            <span>+</span>
+        </button>
+        <div class="faq-answer">
+            You can cancel anytime from your account settings.
+        </div>
+    </div>
+
+    <div class="faq-box">
+        <button class="faq-question">
+            What can I watch on Netflix?
+            <span>+</span>
+        </button>
+        <div class="faq-answer">
+            Movies, TV shows, documentaries, anime and originals.
+        </div>
+    </div>
+
+    <div class="faq-box">
+        <button class="faq-question">
+            Is Netflix good for kids?
+            <span>+</span>
+        </button>
+        <div class="faq-answer">
+            Yes, Netflix has a special kids profile with family-friendly content.
+        </div>
+    </div>
+
+</section>
+
+<script>
+const questions = document.querySelectorAll(".faq-question");
+
+questions.forEach(btn => {
+    btn.addEventListener("click", () => {
+        const answer = btn.nextElementSibling;
+
+        answer.classList.toggle("show");
+
+        btn.querySelector("span").textContent =
+            answer.classList.contains("show") ? "×" : "+";
+    });
+});
+</script>
+
+    </div>
+<section class="second-last">
+     <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <input type="email" name="email" id="email-input" placeholder="Email address"><span><button>Get Started</button></span>
+</section>
+<section class="footer">
+    <footer class="footer">
+
+    <p class="contact">
+        Questions? Call <a href="#">000-800-919-1743</a>
+    </p>
+
+    <div class="footer-links">
+
+        <div class="column">
+            <a href="#">FAQ</a>
+            <a href="#">Investor Relations</a>
+            <a href="#">Privacy</a>
+            <a href="#">Speed Test</a>
+        </div>
+
+        <div class="column">
+            <a href="#">Help Centre</a>
+            <a href="#">Jobs</a>
+            <a href="#">Cookie Preferences</a>
+            <a href="#">Legal Notices</a>
+        </div>
+
+        <div class="column">
+            <a href="#">Account</a>
+            <a href="#">Ways to Watch</a>
+            <a href="#">Corporate Information</a>
+            <a href="#">Only on Netflix</a>
+        </div>
+
+        <div class="column">
+            <a href="#">Media Centre</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+    </div>
+
+    <div class="language-box">
+        <select>
+            <option>English</option>
+            <option>हिन्दी</option>
+        </select>
+    </div>
+
+    <p class="country">Netflix India</p>
+
+    <p class="captcha">
+        This page is protected by Google reCAPTCHA to ensure you're not a bot.
+    </p>
+
+</footer>
+</section>
+</body>
+<script>
+function moveSlide(direction){
+    const slider = document.getElementById("slider");
+    slider.scrollBy({
+        left: direction * 700,
+        behavior: "smooth"
+    });
+}
+</script>
+</html>
